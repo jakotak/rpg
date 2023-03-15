@@ -10,7 +10,7 @@
 #done
 
 # Player setup
-    playername=${playername:-Jimmy}
+playername=${playername:-Jimmy}
 
 # Game setup
 pocetsouboju="0"
