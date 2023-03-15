@@ -66,7 +66,7 @@ fi
 boj0()
 {
 papir
-echo -e "\nBoj s papirem\n"
+echo -e "\nBoj s papirem.\nTen neni nikdy jednoduchy, protoze ma velmi ostre hrany."
 read -t 5 -p "Co udelas?: " akce
 if [[ $(( (${#akce} + $RANDOM) % 3 )) -le $bojovnik || $akce == "w" ]]; then
         echo "$akce $bojovnik Prezils"
@@ -79,7 +79,7 @@ fi
 boj1()
 {
 nuzky
-echo -e "\nBoj s nuzkami\n"
+echo -e "\nNuzky a jejich spicate hroty jsou postrach kazdeho tvora. Jdou ti primo po ocich!\n"
 read -t 5 -p "Co udelas?: " akce
 if [[ $(( (${#akce} + $RANDOM) % 5 )) -le $bojovnik || $akce == "w" ]]; then
         echo "$akce $bojovnik Prezils"
@@ -92,7 +92,7 @@ fi
 boj2()
 {
 nuzky
-echo -e "\nBojs nuzkami 2\n"
+echo -e "\nNuzky co maji hroty spicate jako vrcholky Dolomit. Leti primo na tvuj xicht!\n"
 read -t 5 -p "Co udelas?: " akce
 if [[ $(( (${#akce} + $RANDOM) % 5 )) -le $bojovnik || $akce == "w" ]]; then
         echo "$akce $bojovnik Prezils"
@@ -106,7 +106,7 @@ fi
 boj3()
 {
 papir
-echo -e "\nBoj s papirem 2\n"
+echo -e "\nPapir a jeho ziletkove okraje ti jdou po krku!\n"
 read -t 5 -p "Co udelas?: " akce
 if [[ $(( (${#akce} + $RANDOM) % 4 )) -le $bojovnik || $akce == "w" ]]; then
         echo "$akce $bojovnik Prezils"
@@ -120,8 +120,8 @@ fi
 boj4()
 {
 kamen
-echo -e "\nBoj4\n"
-read -t 5 -p "Co udelas?: " akce
+echo -e "\nLetici kamen neni extra zajimavy. Ale jen tehdy, dokud neleti smerem primo doprostred tveho ciferniku.\n"
+read -t 5 -p "Co s tim?: " akce
 if [[ $(( (${#akce} + $RANDOM) % 2 )) -le $bojovnik || $akce == "w" ]]; then
         echo "$akce $bojovnik Prezils"
         pocetsouboju=$(( $pocetsouboju + 1 ))
