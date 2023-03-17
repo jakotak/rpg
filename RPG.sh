@@ -3,11 +3,11 @@
 echo "Nazdarek. Kdo ses?"
 read -r playername
 
-#echo "
-#Citis se jako:"
-#select role in kocour pes; do
-#break
-#done
+echo "
+Citis se jako:"
+select role in kocour pes; do
+break
+done
 
 # Player setup
 playername=${playername:-Jimmy}
