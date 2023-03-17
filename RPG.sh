@@ -141,7 +141,7 @@ boj4()
 start=$(date +%s)
 clear
 echo "---
-$playername a jeho pribeh
+$role $playername a jeho pribeh!
 ---"
 echo -e "Stojis v lese a pamatujes si jen jmeno \"$playername\", mozna jsi to ty...mozna ne.\n"
 
